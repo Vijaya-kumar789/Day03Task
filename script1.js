@@ -8,9 +8,7 @@ request.onload=function(){
     for (var i=0;i<res.length;i++){
         console.log(res[i].flags.png)
         }
-        
-
-    for (var i=0;i<res.length;i++){
+         for (var i=0;i<res.length;i++){
         console.log("name:"+res[i].name.common+","+"region:"+res[i].region+","+"subregion:"+res[i].subregion+","+"population:"+res[i].population)
          }
  }
